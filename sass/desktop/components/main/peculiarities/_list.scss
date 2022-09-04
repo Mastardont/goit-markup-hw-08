@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+  .peculiarities {
+    padding: 94px 0;
+  }
+  .peculiarities__item {
+    width: 270px;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

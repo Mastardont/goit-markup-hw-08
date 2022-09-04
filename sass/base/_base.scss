@@ -1,0 +1,24 @@
+body {
+  font-family: var(--font-family);
+  color: var(--main-color-txt);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--accent-color-txt);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

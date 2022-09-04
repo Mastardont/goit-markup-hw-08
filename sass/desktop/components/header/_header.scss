@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  .container-header {
+    padding: 24px 15px;
+  }
+
+  .contacts-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contacts-header__mail {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+}

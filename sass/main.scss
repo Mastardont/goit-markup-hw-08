@@ -1,0 +1,78 @@
+@import './base/variable';
+@import './base/base';
+
+@import './utils/utils';
+@import './utils/logo';
+
+@import './mobile/components/header/menu-burger-logo';
+@import './mobile/components/header/mobile-menu';
+@import './mobile/components/header/navigation';
+@import './mobile/components/header/contacts-header';
+@import './mobile/components/header/social-header';
+
+@import './mobile/components/main/hero/background';
+@import './mobile/components/main/hero/title';
+@import './mobile/components/main/hero/button';
+
+@import './mobile/components/main/peculiarities/list';
+@import './mobile/components/main/peculiarities/image';
+
+@import './mobile/components/main/command/list';
+@import './mobile/components/main/command/title';
+@import './mobile/components/main/command/social';
+
+@import './mobile/components/main/client/title';
+@import './mobile/components/main/client/list';
+
+@import './mobile/components/footer/other';
+@import './mobile/components/footer/logo';
+@import './mobile/components/footer/contacts';
+@import './mobile/components/footer/social';
+@import './mobile/components/footer/subscription';
+
+@import './mobile/components/modal/modal-drop';
+@import './mobile/components/modal/modal';
+@import './mobile/components/modal/button';
+@import './mobile/components/modal/text';
+@import './mobile/components/modal/contacts';
+@import './mobile/components/modal/message';
+@import './mobile/components/modal/checkbox';
+@import './mobile/components/modal/submit';
+
+@import './mobile/components/portfolio/other';
+@import './mobile/components/portfolio/sorting';
+@import './mobile/components/portfolio/projects';
+
+@import './tablet/components/header/navigation';
+@import './tablet/components/header/contacts';
+@import './tablet/components/header/current';
+
+@import './tablet/components/main/hero/background';
+
+@import './tablet/components/main/peculiarities/list';
+
+@import './tablet/components/main/command/list';
+
+@import './tablet/components/main/client/list';
+
+@import './tablet/components/footer/footer';
+
+@import './tablet/components/portfolio/projects';
+
+@import './desktop/components/header/header';
+
+@import './desktop/components/main/hero/background';
+@import './desktop/components/main/hero/title';
+
+@import './desktop/components/main/peculiarities/list';
+
+@import './desktop/components/main/service/title';
+@import './desktop/components/main/service/list';
+
+@import './desktop/components/main/command/command';
+
+@import './desktop/components/main/client/client';
+
+@import './desktop/components/footer/footer';
+
+@import './base/display-none';

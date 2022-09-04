@@ -1,0 +1,25 @@
+.contact-footer {
+  margin-bottom: 60px;
+}
+
+.contact-footer__list {
+  padding-left: 0;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact-footer__item:nth-child(-n + 2) {
+  margin-bottom: 8px;
+}
+
+.contact-footer__link {
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer__link_white {
+  color: var(--accent-color-txt);
+}

@@ -1,0 +1,27 @@
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 0;
+}
+
+.logo_dark {
+  color: var(--logo-dark);
+}
+
+.menu-header__btn {
+  padding: 0;
+
+  line-height: 0;
+  cursor: pointer;
+
+  border: none;
+  background-color: transparent;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    fill: var(--backlight-color);
+  }
+}

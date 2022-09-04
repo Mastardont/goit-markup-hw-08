@@ -1,0 +1,21 @@
+// .antenna::before {
+//   background-image: url(../images/antenna.png);
+// }
+
+// .clock::before {
+//   background-image: url(../images/clock.png);
+// }
+
+// .diagram::before {
+//   background-image: url(../images/diagram.png);
+// }
+
+// .astronaut::before {
+//   background-image: url(../images/astronaut.png);
+// }
+
+@each $peculiarities in antenna, clock, diagram, astronaut {
+  .#{$peculiarities}::before {
+    background-image: url('../images/#{$peculiarities}.png');
+  }
+}

@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .container-footer {
+    padding: 0 80px;
+  }
+  .contact-social-box {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 60px;
+  }
+
+  .subscription__input {
+    width: 450px;
+  }
+
+  .contact-footer,
+  .social-footer {
+    margin-bottom: 0;
+  }
+}

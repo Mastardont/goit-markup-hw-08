@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+  footer {
+    padding: 94px 0;
+    background-color: var(--background-color);
+  }
+
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    padding: 0 15px;
+  }
+
+  .contact-social-box {
+    justify-content: flex-start;
+
+    margin-bottom: 0;
+  }
+
+  .contact-footer {
+    margin-right: 70px;
+  }
+
+  .subscription__form {
+    display: flex;
+  }
+
+  .subscription__input {
+    margin-bottom: 0;
+    width: 358px;
+  }
+
+  .subscription__btn {
+    margin-left: 12px;
+  }
+}

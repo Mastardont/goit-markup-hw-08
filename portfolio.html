@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="portfolio-header">
+    <div class="container desktop-tablet-none container-header" data-menu-container>
+
+      <div class="menu-header">
+        <a href="" class="logo link">Web<span class="logo_dark">Studio</span> </a>
+        <button class="menu-header__btn" type="button" data-menu-open>
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#mobile-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <button type="button" class="mobile-menu__btn-close" data-menu-close>
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+
+        <nav class="navigation">
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link link">Студия</a>
+            </li>
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link current link">Портфолио</a>
+            </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="contacts-header">
+          <a href="+380961111111" class="contacts-header__phone link">
+            +38 096 111 11 11</a>
+          <a href="info@devstudio.com" class="contacts-header__mail link">
+            info@devstudio.com</a>
+
+          <ul class="social-header list">
+            <li class="social-header__item">
+              <a href="" class="social-header__link link">Instagram</a>
+            </li>
+            <li class="social-header__item">
+              <a href="" class="social-header__link link">Twitter</a>
+            </li>
+            <li class="social-header__item">
+              <a href="" class="social-header__link link">Facebook</a>
+            </li>
+            <li class="social-header__item">
+              <a href="" class="social-header__link link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container mobile-none container-header">
+
+      <nav class="navigation">
+        <a href="" class="logo link navigation__logo">Web<span class="logo_dark">Studio</span> </a>
+
+        <ul class="navigation__list list">
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link link">Студия</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./portfolio.html" class="navigation__link current link">Портфолио</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="contacts-header">
+        <a href="info@devstudio.com" class="contacts-header__mail link">
+          <svg class="contacts-header__icon" width="16" height="12">
+            <use href="./images/icons.svg#envelope"></use>
+          </svg> info@devstudio.com</a>
+        <a href="+380961111111" class="contacts-header__phone link">
+          <svg class="contacts-header__icon" width="10" height="16">
+            <use href="./images/icons.svg#smartphone"></use>
+          </svg> +38 096 111 11 11</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="portfolio section">
+      <div class="container">
+
+        <h1 class="visually-hidden">PORTFOLIO</h1>
+
+        <ul class="portfolio-sorting list">
+          <li class="portfolio-sorting__item">
+            <button type="button" class="portfolio-sorting__btn">Все</button>
+          </li>
+
+          <li class="portfolio-sorting__item">
+            <button type="button" class="portfolio-sorting__btn">Веб-сайты</button>
+          </li>
+
+          <li class="portfolio-sorting__item">
+            <button type="button" class="portfolio-sorting__btn">Приложения</button>
+          </li>
+
+          <li class="portfolio-sorting__item">
+            <button type="button" class="portfolio-sorting__btn">Дизайн</button>
+          </li>
+
+          <li class="portfolio-sorting__item">
+            <button type="button" class="portfolio-sorting__btn">Маркетинг</button>
+          </li>
+        </ul>
+
+        <ul class="projects-list list">
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-1.webp 1x, ./images/desktop/370-project-1@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-1.jpg 1x, ./images/desktop/370-project-1@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-1.webp 1x, ./images/tablet/354-project-1@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-1.jpg 1x, ./images/tablet/354-project-1@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-1.webp 1x, ./images/mobile/450-project-1@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-1.jpg 1x, ./images/mobile/450-project-1@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-1.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Технокряк</h2>
+                <p class="projects-list__description">Веб-сайт</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-2.webp 1x, ./images/desktop/370-project-2@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-2.jpg 1x, ./images/desktop/370-project-2@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-2.webp 1x, ./images/tablet/354-project-2@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-2.jpg 1x, ./images/tablet/354-project-2@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-2.webp 1x, ./images/mobile/450-project-2@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-2.jpg 1x, ./images/mobile/450-project-2@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-2.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Постер New Orlean vs Golden Star</h2>
+                <p class="projects-list__description">Дизайн</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-3.webp 1x, ./images/desktop/370-project-3@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-3.jpg 1x, ./images/desktop/370-project-3@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-3.webp 1x, ./images/tablet/354-project-3@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-3.jpg 1x, ./images/tablet/354-project-3@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-3.webp 1x, ./images/mobile/450-project-3@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-3.jpg 1x, ./images/mobile/450-project-3@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-3.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Ресторан Seafood</h2>
+                <p class="projects-list__description">Приложение</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-4.webp 1x, ./images/desktop/370-project-4@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-4.jpg 1x, ./images/desktop/370-project-4@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-4.webp 1x, ./images/tablet/354-project-4@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-4.jpg 1x, ./images/tablet/354-project-4@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-4.webp 1x, ./images/mobile/450-project-4@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-4.jpg 1x, ./images/mobile/450-project-4@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-4.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Проект Prime</h2>
+                <p class="projects-list__description">Маркетинг</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-5.webp 1x, ./images/desktop/370-project-5@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-5.jpg 1x, ./images/desktop/370-project-5@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-5.webp 1x, ./images/tablet/354-project-5@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-5.jpg 1x, ./images/tablet/354-project-5@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-5.webp 1x, ./images/mobile/450-project-5@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-5.jpg 1x, ./images/mobile/450-project-5@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-5.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Проект Boxes</h2>
+                <p class="projects-list__description">Приложение</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-6.webp 1x, ./images/desktop/370-project-6@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-6.jpg 1x, ./images/desktop/370-project-6@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-6.webp 1x, ./images/tablet/354-project-6@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-6.jpg 1x, ./images/tablet/354-project-6@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-6.webp 1x, ./images/mobile/450-project-6@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-6.jpg 1x, ./images/mobile/450-project-6@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-6.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Inspiration has no Borders</h2>
+                <p class="projects-list__description">Веб-сайт</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-7.webp 1x, ./images/desktop/370-project-7@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-7.jpg 1x, ./images/desktop/370-project-7@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-7.webp 1x, ./images/tablet/354-project-7@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-7.jpg 1x, ./images/tablet/354-project-7@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-7.webp 1x, ./images/mobile/450-project-7@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-7.jpg 1x, ./images/mobile/450-project-7@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-7.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Издание Limited Edition</h2>
+                <p class="projects-list__description">Дизайн</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-8.webp 1x, ./images/desktop/370-project-8@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-8.jpg 1x, ./images/desktop/370-project-8@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-8.webp 1x, ./images/tablet/354-project-8@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-8.jpg 1x, ./images/tablet/354-project-8@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-8.webp 1x, ./images/mobile/450-project-8@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-1.jpg 1x, ./images/mobile/450-project-8@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-8.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Проект LAB</h2>
+                <p class="projects-list__description">Маркетинг</p>
+              </div>
+
+            </a>
+          </li>
+
+          <li class="projects-list__item">
+            <a href="" class="projects-list__link link">
+
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/desktop/370-project-9.webp 1x, ./images/desktop/370-project-9@2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp">
+
+                  <source srcset="./images/desktop/370-project-9.jpg 1x, ./images/desktop/370-project-9@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source srcset="./images/tablet/354-project-9.webp 1x, ./images/tablet/354-project-9@2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp">
+
+                  <source srcset="./images/tablet/354-project-9.jpg 1x, ./images/tablet/354-project-9@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source srcset="./images/mobile/450-project-9.webp 1x, ./images/mobile/450-project-9@2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="./images/mobile/450-project-9.jpg 1x, ./images/mobile/450-project-9@2x.jpg 2x"
+                    media="(max-width: 767px)">
+
+                  <img src="./images/mobile/450-project-9.jpg" alt="img">
+                </picture>
+
+                <p class="projects-list__text">Ресурс предлагает комплексные предложения с разным уровнем функционала
+                  и
+                  сервисов. Все это позволит
+                  посетителю получить
+                  исчерпывающие сведения о компании или частном лице.</p>
+              </div>
+
+              <div class="projects-list__box">
+                <h2 class="projects-list__title">Growing Business</h2>
+                <p class="projects-list__description">Приложение</p>
+              </div>
+
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container container-footer">
+      <div class="contact-social-box">
+        <div class="contact-footer">
+          <a href="" class="contact-footer__logo logo link">Web<span class="logo_light">Studio</span> </a>
+
+          <address>
+
+            <ul class="contact-footer__list list">
+              <li class="contact-footer__item">
+                <a href="" class="contact-footer__link contact-footer__link_white link">г. Киев, пр-т Леси Украинки,
+                  26</a>
+              </li>
+              <li class="contact-footer__item">
+                <a href="info@example.com" class="contact-footer__link link">info@example.com</a>
+              </li>
+              <li class="contact-footer__item">
+                <a href="+380991111111" class="contact-footer__link link">+38 099 111 11 11</a>
+              </li>
+            </ul>
+
+          </address>
+        </div>
+
+        <div class="social-footer">
+          <p class="social-footer__txt">присоединяйтесь</p>
+
+          <ul class="social-footer__list list">
+            <li>
+              <a href="" class="social-footer__link link">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-footer__link link">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-footer__link link">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-footer__link link">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subscription">
+        <p class="subscription__txt">Подпишитесь на рассылку</p>
+
+        <form class="subscription__form">
+          <label>
+            <input name="footer-email" type="email" placeholder="E-mail" class="subscription__input">
+          </label>
+          <button type="submit" class="subscription__btn">Подписаться<svg class="subscription__img" width="24"
+              height="24">
+              <use href="./images/icons.svg#icon_send"></use>
+            </svg>
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./mobile-menu.js"></script>
+</body>
+
+</html>

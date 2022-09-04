@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .current {
+    position: relative;
+    color: var(--backlight-color);
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -22px;
+      left: 0;
+
+      width: 100%;
+      height: 4px;
+
+      border-radius: 2px;
+      background: var(--backlight-color);
+      cursor: auto;
+    }
+  }
+}
