@@ -6,18 +6,11 @@
     padding-left: 0;
   }
 
-  .projects-list__item {
+  .list > .projects-list__item {
     margin: 15px;
   }
 
-  .projects-list__link {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
   .projects-list__box {
-    flex-grow: 1;
     padding: 20px 18px;
   }
 }
